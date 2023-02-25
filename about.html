@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webStyle/layout.css">
+    <link rel="stylesheet" href="webStyle/about.css">
     <title>ToDo</title>
 </head>
 
 <body>
     <header>
-        <img src="https://cdn.pixabay.com/photo/2022/05/22/17/22/to-do-7214069__340.png"
-            alt="here is the logo of the website" height="100px" />
-        <h1>ToDo</h1>
         <nav>
-            <ul>
+            <ul class="nav">
+                <li><img src="https://cdn.pixabay.com/photo/2022/05/22/17/22/to-do-7214069__340.png"
+                        alt="here is the logo of the website" height="75px" />
+                </li>
+                <li>
+                    <h2>ToDo</h2>
+                </li>
                 <li><a href="./">Home</a></li>
                 <li><a href="">Progress</a></li>
                 <li><a href="about.html">About</a></li>
@@ -23,7 +28,7 @@
     </header>
     <main>
         <section>
-            <img src="mePhoto.jpg" height="300px"/>
+            <img src="mePhoto.jpg" height="300px" />
             <article>
                 <h3>ahmad jehad alanati</h3>
                 <p>this is where the user put description</p>
@@ -31,6 +36,7 @@
         </section>
         <section>
             <form>
+                <hr/>
                 <h3>contact ahmad jehad alanati</h3>
                 <label for="username">Your Name</label>
                 <input type="text" name="username" />
@@ -44,14 +50,11 @@
         </section>
     </main>
     <footer>
-        &copy
-        <h5>phone number</h5>
-        <h5>XX-XXXX-XXXX</h5>
-        <nav>
-            <ul>
-                <li><a href="">Facebook</a></li>
-            </ul>
-        </nav>
+        <h3 class="contact">contact us</h4>
+        <h5 class="contactinfo">phone number</h5>
+        <h5 class="contactinfo">XX-XXXX-XXXX</h5>
+        <a href="" class="contactinfo">Facebook</a>
+        <p>&copy made by ahmad</p>
     </footer>
 </body>
 
