@@ -6,15 +6,11 @@ header {
 
 header ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
 header ul li {
     float: left;
-
-    ;
 }
 
 li a {
@@ -24,8 +20,8 @@ li a {
 }
 
 li h2 {
-    padding-top: 5px;
-    padding-left: 30px;
+    padding-top: 28px;
+    padding-left:60px;
 }
 
 footer {
@@ -40,8 +36,10 @@ footer p {
 .contact {
     padding-left: 25px;
     padding-top:  10px;
+    padding-bottom: 10px;
 }
 
 .contactinfo {
     padding-left: 25px;
+    padding-bottom: 10px;
 }
