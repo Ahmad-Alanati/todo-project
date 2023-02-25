@@ -1,0 +1,12 @@
+main h2{
+    text-align: center;
+}
+table {
+    height: 300px;
+    width: 600px;
+    margin-left: 25%;
+}
+table tr th, table tr td{
+    text-align: center;
+    border: 1px solid;
+}
