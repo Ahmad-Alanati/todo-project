@@ -1,0 +1,45 @@
+header {
+    background-color: #C79662;
+    text-align: center;
+    color: white;
+}
+
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding-left: 100px;
+    padding-top: 28px;
+}
+
+li h2 {
+    padding-top: 28px;
+    padding-left:60px;
+}
+
+footer {
+    background-color: #C79662;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+.contact {
+    padding-left: 25px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+}
+
+.contactinfo {
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
